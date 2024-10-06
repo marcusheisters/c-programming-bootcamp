@@ -4,15 +4,15 @@
 
 int main() {
 
-  double radius;
+  double r;
   printf("Enter the radius of the sphere: \n");
-  scanf("%lf", &radius);
+  scanf("%lf", &r);
 
-  double area = 4 * M_PI * radius * radius;
-  double volume = (4.0 / 3.0) * M_PI * pow(radius, 3);
+  double area = 4 * M_PI * r * r;
+  double volume = (4.0 / 3.0) * M_PI * pow(r, 3);
 
-  printf("Radius: %.2f | Area: %.2f | Volume: %.2f\n", radius, area, volume);
-  printf("Radius: %.3E | Area: %.3E | Volume: %.3E\n", radius, area, volume);
+  printf("Radius: %.2f | Area: %.2f | Volume: %.2f\n", r, area, volume);
+  printf("Radius: %.3E | Area: %.3E | Volume: %.3E\n", r, area, volume);
 
   return EXIT_SUCCESS;
 }
